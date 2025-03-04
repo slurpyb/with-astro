@@ -1,0 +1,17 @@
+{
+  "name": "@repo/ui",
+  "version": "0.0.0",
+  "packageManager": "pnpm@10.5.2",
+
+  "exports": {
+    "./counter": "./components/counter.ts",
+    "./header": "./components/header.ts",
+    "./setup-counter": "./utils/counter.ts"
+  },
+  "license": "MIT",
+  "scripts": {},
+  "devDependencies": {
+    "@repo/tsconfig": "workspace:*",
+    "typescript": "5.5.4"
+  }
+}

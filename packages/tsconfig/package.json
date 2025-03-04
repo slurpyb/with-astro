@@ -1,0 +1,24 @@
+{
+  "name": "@repo/tsconfig",
+  "private": true,
+  "version": "0.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slurpyb/velveteen-disco.git",
+    "directory": "packages/tsconfig"
+  },
+  "files": [
+    "astro.json",
+    "build.json"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "packageManager": "pnpm@9.15.3",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "astro": "^5.2.3"
+  }
+}
