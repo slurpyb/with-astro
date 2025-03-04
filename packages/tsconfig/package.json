@@ -5,17 +5,18 @@
   "description": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/slurpyb/velveteen-disco.git",
+    "url": "git+https://github.com/slurpyb/with-astro.git",
     "directory": "packages/tsconfig"
   },
   "files": [
     "astro.json",
+    "vite.json",
     "build.json"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "packageManager": "pnpm@9.15.3",
+  "packageManager": "pnpm@10.5.2",
   "author": "",
   "license": "ISC",
   "devDependencies": {

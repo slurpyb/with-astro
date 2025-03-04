@@ -1,14 +1,17 @@
 {
-  "name": "${PROJECT_NAME}",
+  "name": "with-astro",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
+  "packageManager": "pnpm@10.5.2",
   "scripts": {
-    "build": "tsc"
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "clean": "turbo run clean && rm -rf node_modules"
   },
-  "dependencies": {},
   "devDependencies": {
-    "typescript": "^5.5.3"
+    "turbo": "^2.4.4"
   },
   "private": true
 }
